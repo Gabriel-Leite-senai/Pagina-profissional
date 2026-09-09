@@ -1,0 +1,49 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+  color: gold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 100;
+}
+.passarocomtexto {
+display: inline-block;
+}
+@keyframes nome {
+  0% {top: 48px;}
+  50% {top: 0px;}
+  100% {top: 48px;}
+}
+@keyframes textocor {
+  0% {color: gold;}
+  100% {color: yellow}
+}
+img {
+  position: relative;
+  animation-duration: 4s;
+  animation-name: nome;
+  animation-iteration-count: infinite;
+  height: 128px;
+  animation-timing-function:ease-in-out ;
+}
+.texto {
+  font-size: 48;
+  font-weight: 100;
+  font-style: italic;
+  vertical-align: text-top;
+  margin-top: 48px;
+  text-align: right;
+  float: right;
+}
